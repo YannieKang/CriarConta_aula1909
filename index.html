@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyApp</title>
+    <!-- link para o BootStrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+
+<body>
+    <section class="container my-5">
+        <div class="bg-primary p-4 mt-3 rounded">
+            <h1 class="display-5 text-light">Criar Conta</h1>
+        </div>
+        
+        <form id="criarConta" name="criarConta" method="get" action="">
+            
+            <!-- iniciando o grid do BS --> 
+            <section class="row">
+                <div class="my-2">
+                    <!-- label usado apenas para formulario -->
+                    <label for="usuario" class="form-label">Usuário</label> 
+                    <!-- minlengh e maxlength define o tamanho/qtd de elemento digitado -->
+                    <input type="text" id="usuario" name="usuario" class="form-control" minlength="10" maxlength="20">
+                </div>
+            </section>
+            <!-- finalizar o gird do BS -->
+
+        </form>
+    </section>
+</body>
+
+</html>
